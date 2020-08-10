@@ -12,5 +12,5 @@ Run project:
 3. git commit -m "messages" (commit change local)
 4. up-stream push: git remote add name_branch https://github.com/huynhthetong280619/ads-api
 5. git push name_branch
-6. git --set-upstream name_branch name_branch
+6. git push --set-upstream name_branch name_branch
 7. git push
