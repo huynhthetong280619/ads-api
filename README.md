@@ -1,6 +1,6 @@
 Run project:
-1----cmd: yarn install (to install all package use)
-2----cmd: yarn start (to run application server)
+1. cmd: yarn install (to install all package use)
+2. cmd: yarn start (to run application server)
 
 
 --Create new branch
@@ -13,4 +13,4 @@ Run project:
 4. up-stream push: git remote add name_branch https://github.com/huynhthetong280619/ads-api
 5. git push name_branch
 6. git --set-upstream name_branch name_branch
-7. git push name_branch
+7. git push
