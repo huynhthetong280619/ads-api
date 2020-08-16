@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -28,6 +27,7 @@ app.get('/', (req, res) => {
     res.json({"message": "codebase ads-apu"});
 });
 
+require('./app/routes/ads.routes.js')(app);
 
 // listen for requests
 app.listen(3000, () => {
