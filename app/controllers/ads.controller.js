@@ -11,7 +11,8 @@ exports.create = (req, res) => {
 
   const ad = new Ad({
     title: req.body.title || "Untitled Ads",
-    content: req.body.content
+    content: req.body.content,
+    URLImage: req.body.URLImage
   });
 
   // Save Ads in the database

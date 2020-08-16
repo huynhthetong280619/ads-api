@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const AdsSchema = mongoose.Schema({
     title: String,
-    content: String
+    content: String,
+    urlImage: String
 }, {
     timestamps: true
 });
